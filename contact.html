@@ -18,10 +18,20 @@
     <div class="contentbox">
 
       <article>
-        <h2> About Me </h2>
-        <img id="cover" src="assets/images/coverPhoto.jpg" alt="Me in a River">
-        <p>I'm Harris Joseph, aspiring data scientist and developer, mathematician, mechanic, outdoorsman, and friend to many! After working as a professional automotive technician for a few years in my early twenties, I decided to go back to school and get a bachelor's degree. Four years later, in May of 2017, I finished my bachelor's in applied mathematics, and here I am! I am passionate about finding creative solutions to unique problems, and I am constantly working to branch my skill tree. I hope you enjoy yourself, if not, feel free to contact me and chip my ego. This website may have started as a form of shameless self promotion, but it is constantly evolving with its creator, yours truly.  </p>
-        <p>I like cheese.</p>
+        <h2> Contact Me </h2>
+        
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+          <br>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+          <br>
+          <label for="message">Message</label>
+          <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
+          <br>
+          <input class="submitbutton" type="submit" value="Send message">
+        </form>
       </article>
       <aside> 
         <h3>Connect with Me</h3>
@@ -32,7 +42,7 @@
     </div>
   </div>
   <footer>
-    &copy Harris Joseph 2017
-  </footer>
+   &copy Harris Joseph 2017
+ </footer>
 </body>
 </html>
