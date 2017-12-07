@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>(Home) Harris Joseph</title>
-  <link href="https://fonts.googleapis.com/css?family=Atomic+Age|Ubuntu+Condensed" rel="stylesheet">  
-  <link rel"stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Ubuntu+Condensed" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
   <div class="whitefill">
     <header>
       <h1>Harris Joseph</h1>
-      <nav> <a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a> </nav>
+      <nav class="hidden-xs hiden-sm">
+       <a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a> 
+     </nav>
     </header>
   </div>
 
@@ -20,21 +22,19 @@
 
       <article>
         <h2> Contact Me </h2>
-        
-        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your name..">
-          <br>
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="Your email..">
-          <br>
-          <label for="message">Message</label>
-          <textarea id="subject" name="message" placeholder="Write something.."></textarea>
-          <br>
-          <input class="submitbutton" type="submit" value="Send message">
-        </form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+        <br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email..">
+        <br>
+        <label for="message">Message</label>
+        <textarea id="subject" name="message" placeholder="Write something.."></textarea>
+        <br>
+        <input class="submitbutton" type="submit" value="Send message">
+
       </article>
-      <aside> 
+      <aside class="hidden-xs hidden-sm"> 
         <h3>Connect with Me</h3>
         <a target="_blank" href="https://github.com/harrycaveman"><img src="assets/images/gitIcon.png"></a>
         <a target="_blank" href="https://www.linkedin.com/in/harris-joseph-422605104/"><img src="assets/images/linkedIcon.png"></a>
@@ -43,7 +43,12 @@
     </div>
   </div>
   <footer>
-   &copy Harris Joseph 2017
- </footer>
+     <div>
+      <nav class="mini-nav hidden-md hidden-lg"> 
+        <a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a> 
+      </nav>
+    </div>
+    <span>&copy Harris Joseph 2017</span>
+  </footer>
 </body>
 </html>
