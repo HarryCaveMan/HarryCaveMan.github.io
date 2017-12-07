@@ -15,6 +15,7 @@
  }
 
  header  {
+ 	position:relative;
  	width:90%;
  	height: 120px;
  	background: #ccc;
@@ -23,12 +24,14 @@
 
  h1 {
  	font-family: 'Bungee', cursive;
- 	float: left;
+ 	position:absolute;
+ 	left:0;
+ 	bottom:0;
  	padding:15px;
  	background: #385623;
  	color:#ccc;
  	font-size: 300%;
- 	margin-bottom:0;
+ 	
  }
 
  h2 {
@@ -63,11 +66,13 @@
  	color:#ccc;
  	text-align:center;
  	font-size: 120%;
+ 	text-decoration:none;
  	bottom:-140px;
  }
 
  a {
  	color:inherit;
+ 	text-decoration:inherit;
  }
 
  nav {
@@ -220,23 +225,28 @@
  	.hidden-xs {
  		display: none !important;
  	}
- 	#cover {
+ 	#hangman,#rpg,#triv,#info,#rps {
  		float:none;
- 		margin-left:calc(50% - 90px);
- 		margin-right:calc(50% - 90px);
+ 		margin-left:calc(50% - 100px);
+ 		margin-right:calc(50% - 100px);
+ 		}
+ 		#cover {
+ 			float:none;
+ 			margin-left:calc(50% - 90px);
+ 			margin-right:calc(50% - 90px);
+ 		}
  	}
- }
- @media (min-width: 768px) and (max-width: 991px) {
- 	.hidden-sm {
- 		display: none !important;
+ 	@media (min-width: 768px) and (max-width: 991px) {
+ 		.hidden-sm {
+ 			display: none !important;
+ 		}
  	}
- }
- @media (min-width: 992px) and (max-width: 1199px) {
- 	.hidden-md {
- 		display: none !important;
+ 	@media (min-width: 992px) and (max-width: 1199px) {
+ 		.hidden-md {
+ 			display: none !important;
+ 		}
  	}
- }
- @media (min-width: 1200px) {
- 	.hidden-lg {
- 		display: none !important;
- 	}
+ 	@media (min-width: 1200px) {
+ 		.hidden-lg {
+ 			display: none !important;
+ 		}
