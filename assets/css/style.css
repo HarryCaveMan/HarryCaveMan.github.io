@@ -144,7 +144,7 @@
  	width: 90%;
  	background:inherit;
  	margin:auto;
- 	padding:0;
+ 	padding-bottom:100px;
  }
 
  .patfill {
@@ -218,6 +218,11 @@
  	article {
  		width:100%;
  		margin:auto;
+ 	}
+ 	aside {
+ 		left:35%;
+ 		top:30px;
+
  	}
  }
 
