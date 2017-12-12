@@ -168,7 +168,7 @@
  #hangman,#rpg,#triv,#info,#rps {
  	height:240px;
  	width:200px;
- 	margin:50px;
+ 	margin:20px;
  	float:left;
  }
 
@@ -220,21 +220,20 @@
  		margin:auto;
  	}
  	aside {
- 		left:35%;
- 		top:30px;
-
- 	}
- }
-
- @media (max-width: 639px) {
- 	.hidden-xs {
- 		display: none !important;
+ 		width:55%;
+        left:25%;
  	}
  	#hangman,#rpg,#triv,#info,#rps {
  		float:none;
  		margin-left:calc(50% - 100px);
  		margin-right:calc(50% - 100px);
  		}
+ }
+
+ @media (max-width: 639px) {
+ 	.hidden-xs {
+ 		display: none !important;
+ 	}
  		#cover {
  			float:none;
  			margin-left:calc(50% - 90px);
