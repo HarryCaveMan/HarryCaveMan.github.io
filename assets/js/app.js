@@ -15,7 +15,7 @@ function inputForm(){
         if(APISearchString!=last || last!=''){
         	last=APISearchString;
         	$('#image-display').empty();
-	        var obj = $.get("http://api.giphy.com/v1/gifs/search?q=+"+APISearchString+"&api_key="+KEY+"&limit=10",
+	        var obj = $.get("https://api.giphy.com/v1/gifs/search?q=+"+APISearchString+"&api_key="+KEY+"&limit=10",
 			function(response){return response;}).done(a => {
 			  var temp = obj.responseJSON.data;
 			  console.log(temp.length);
