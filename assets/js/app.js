@@ -21,7 +21,7 @@ function inputForm(){
 			  console.log(temp.length);
 			  for (let i=0 ; i<temp.length ; i++){
 				var imUrl = temp[i].images.fixed_height_downsampled.url;
-				$('#image-display').append("<div class='container-fluid image'><div class='row'>Rating: "+temp[i].rating+"</div><div class='row'><img src='"+temp[i].images.fixed_height_downsampled.url+"'></div>");
+				$('#image-display').append("<div class='container-fluid image'><div class='row'>Rating: "+temp[i].rating+"</div><div class='row'><iframe src='"+temp[i].embed_url+"'></div>");
 	            
 			  }
 		    }); 
