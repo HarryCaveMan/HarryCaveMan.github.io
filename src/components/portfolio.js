@@ -41,7 +41,7 @@ const tileData = [
         img:require('../graphs.jpg'),
         title:"Crypto-Clash",
         subtitle:"Crypto Currency dashboard with global chat",
-        url:"http://hidden-savannah.78793.herokuapp.com"
+        url:"http://http://hidden-savannah-78793.herokuapp.com/"
     },
     {
         img:require('../nightLife.jpeg'),
