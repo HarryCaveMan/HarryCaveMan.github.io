@@ -32,8 +32,6 @@ class App extends Component {
         <Paper className="App-content">
         <Router>
           <div id="router">
-          <Route  path="/" render={() => this.state.curloc===("/home")?
-           <Home/>:<Redirect to={this.state.curloc} push />} />
           <Route path="/home" render={() => this.state.curloc===("/home")?
            <Home/>:<Redirect to={this.state.curloc} push />} />
           <Route  path="/portfolio" render={() => this.state.curloc===("/portfolio")?
