@@ -93,7 +93,7 @@ a:visited{
   }
 
   #cover {
-    margin-right:75px;
+    margin-right: calc(100% - 180px);
   }
 
   .portfolio-item{
