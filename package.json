@@ -1,7 +1,6 @@
 {
   "name": "harrycaveman.github.io",
   "repository": "https://github.com/HarryCaveMan/HarryCaveMan.github.io.git",
-  "homepage": "http://harrycaveman.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
