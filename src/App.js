@@ -32,13 +32,13 @@ class App extends Component {
         <Paper className="App-content">
         <Router>
           <div id="router">
-          <Route exact path="/" render={() => this.state.curloc===("/home")?
+          <Route  path="/" render={() => this.state.curloc===("/home")?
            <Home/>:<Redirect to={this.state.curloc} push />} />
-          <Route exact path="/home" render={() => this.state.curloc===("/home")?
+          <Route path="/home" render={() => this.state.curloc===("/home")?
            <Home/>:<Redirect to={this.state.curloc} push />} />
-          <Route exact path="/portfolio" render={() => this.state.curloc===("/portfolio")?
+          <Route  path="/portfolio" render={() => this.state.curloc===("/portfolio")?
            <Portfolio/>:<Redirect to={this.state.curloc} push />} />
-          <Route exact path="/contact" render={() => this.state.curloc===("/contact")?
+          <Route path="/contact" render={() => this.state.curloc===("/contact")?
            <Contact/>:<Redirect to={this.state.curloc} push />} />
           </div>
         </Router>  

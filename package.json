@@ -2,6 +2,7 @@
   "name": "harrycaveman.github.io",
   "repository": "https://github.com/HarryCaveMan/HarryCaveMan.github.io.git",
   "version": "0.1.0",
+  "homepage": "http://harrisjoseph.com",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^1.0.0",
