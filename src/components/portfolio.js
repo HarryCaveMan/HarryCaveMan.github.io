@@ -5,8 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import SendIcon from '@material-ui/icons/Send'
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward'
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import Grid from '@material-ui/core/Grid';
@@ -74,17 +73,17 @@ const Portfolio = props => {
             {tileData.map(tile => (
                 <GridListTile className="portfolio-item" key={tile.img}>
                 <img src={tile.img} alt={tile.title} />
+                <a href={tile.url} rel="noopener noreferrer" target="_blank">
                 <GridListTileBar
                     title={tile.title}
                     subtitle={<span>{tile.subtitle}</span>}
                     actionIcon={
-                    <a href={tile.url} rel="noopener" target="_blank">
                       <IconButton className={classes.icon}>
-                        <SendIcon />
+                        <ArrowForwardIcon />
                       </IconButton>
-                    </a>
                     }
                 />
+                </a>
                 </GridListTile>
             ))}
             </GridList>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid'
 import AppHeader from './components/appHeader';
 import Home from './components/home';
 import Portfolio from './components/portfolio';
