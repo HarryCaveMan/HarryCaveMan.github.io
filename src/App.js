@@ -41,6 +41,7 @@ class App extends Component {
            <Contact/>:<Redirect to={this.state.curloc} push />} />
           </div>
         </Router>  
+        <p style={{marginLeft:"40%",fontSize:"0.7em"}}>&copy; Harris Joseph 2018</p>
         </Paper>      
       </div>
     );
